@@ -21,8 +21,8 @@ class ActiveSupport::TestCase
                                   remember_me: remember_me }
       else
         session[:user_id] = user.id 
-      end
     end
+  end
 
   
   private 
